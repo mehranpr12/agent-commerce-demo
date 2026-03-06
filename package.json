@@ -1,0 +1,32 @@
+{
+  "name": "azeth-agent-commerce-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Two AI agents discover, pay, and rate each other using Azeth trust infrastructure",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azeth-protocol/agent-commerce-demo.git"
+  },
+  "scripts": {
+    "demo": "tsx src/demo.ts",
+    "demo:provider": "tsx src/provider.ts",
+    "demo:consumer": "tsx src/consumer.ts"
+  },
+  "dependencies": {
+    "@azeth/sdk": "^0.2.0",
+    "@azeth/provider": "^0.2.0",
+    "hono": "^4.7.0",
+    "@hono/node-server": "^1.13.0",
+    "dotenv": "^16.4.0",
+    "chalk": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

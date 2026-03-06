@@ -1,0 +1,37 @@
+# Azeth Agent Commerce Demo
+
+> Two AI agents discover, pay, and rate each other using Azeth trust infrastructure.
+
+This demo shows the complete machine economy loop on Base Sepolia:
+
+1. Agent A ("WeatherOracle") creates a smart account and registers as a weather data service
+2. Agent B ("DataAnalyst") discovers the service, checks reputation, pays via x402, and rates the provider
+
+## What This Demonstrates
+
+- ERC-4337 smart account creation via AzethKit
+- ERC-8004 trust registry: service publishing and discovery
+- x402 payments: HTTP-native machine-to-machine commerce
+- On-chain reputation: payment-gated feedback that builds trust over time
+
+## Key Insight: Providers Need Smart Accounts
+
+An EOA-only provider can receive payments but cannot be discovered, rated, or build reputation. Azeth smart accounts make providers first-class participants in the machine economy.
+
+## Quick Start
+
+```bash
+git clone https://github.com/azeth-protocol/agent-commerce-demo.git
+cd agent-commerce-demo
+npm install
+cp .env.example .env
+# Add two different private keys
+npm run demo
+```
+
+## Related
+
+- Azeth MCP Server: npx @azeth/mcp-server (32 tools for AI agents)
+- Azeth SDK: npm install @azeth/sdk
+- Agent Starter Template: https://github.com/azeth-protocol/agent-starter
+- Website: https://azeth.ai
